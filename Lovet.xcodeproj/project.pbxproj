@@ -133,7 +133,7 @@
 
 /* Begin PBXFileReference section */
 		0B6D83597DFB31F85DB20AAC /* Pods_MedianIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedianIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2002B49818A9991300495B3D /* Median.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Median.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2002B49818A9991300495B3D /* Lovet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lovet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2002B49B18A9991300495B3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2002B49D18A9991300495B3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2002B49F18A9991300495B3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -340,7 +340,7 @@
 		2002B49918A9991300495B3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2002B49818A9991300495B3D /* Median.app */,
+				2002B49818A9991300495B3D /* Lovet.app */,
 				2002B4BC18A9991300495B3D /* MedianIOSTests.xctest */,
 			);
 			name = Products;
@@ -587,7 +587,7 @@
 			);
 			name = Lovet;
 			productName = LeanIOS;
-			productReference = 2002B49818A9991300495B3D /* Median.app */;
+			productReference = 2002B49818A9991300495B3D /* Lovet.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2002B4BB18A9991300495B3D /* MedianIOSTests */ = {
@@ -1069,7 +1069,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZHN2P52NGG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					.,
@@ -1078,6 +1078,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
 				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lovet POC";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1089,7 +1091,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.zjwwmk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audrinc.lovet;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1113,7 +1115,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = ZHN2P52NGG;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					.,
@@ -1122,6 +1124,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeanIOS/MedianIOS-Prefix.pch";
 				INFOPLIST_FILE = "LeanIOS/MedianIOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lovet POC";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1133,7 +1137,7 @@
 					"-ObjC",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.median.ios.zjwwmk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.audrinc.lovet;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
